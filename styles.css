@@ -1,0 +1,78 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 10px;
+}
+
+/* Header */
+header {
+    background-color: #ffcc99;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #005f6b;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Sections */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #005f6b;
+}
+
+/* Form */
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+form button {
+    background-color: #005f6b;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+form button:hover {
+    background-color: #007d91;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #005f6b;
+    color: white;
+    border-radius: 5px;
+}
